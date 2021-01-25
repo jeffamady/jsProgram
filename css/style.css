@@ -1,0 +1,170 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #eeafc9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+body main {
+  width: 60vw;
+  height: 75vh;
+  position: absolute;
+  top: 15vh;
+}
+
+body main .section1 {
+  background-color: #BDBF09;
+  width: 100%;
+  height: 60%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .section1 #cuadrado {
+  width: 5rem;
+  height: 5rem;
+  background-color: #FBF5F3;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+body main .section2 {
+  background-color: #E71D36;
+  width: 100%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "";
+          flex-direction: "";
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+body main .section2 button {
+  width: 3rem;
+  height: 2rem;
+  background-color: #FBF5F3;
+  margin: .1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "";
+          flex-direction: "";
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+body main .section2 #reset {
+  position: relative;
+}
+
+body main .section2 #reset:hover {
+  background-color: #BDBF09;
+  opacity: 90%;
+}
+
+body main .section2 #up {
+  position: relative;
+  bottom: 2.2rem;
+  left: 6.4rem;
+}
+
+body main .section2 #up:hover {
+  background-color: #B21E35;
+  opacity: 90%;
+}
+
+body main .section2 #down {
+  position: relative;
+  top: 2.3rem;
+  right: 6.4rem;
+}
+
+body main .section2 #down:hover {
+  background-color: #B21E35;
+  opacity: 90%;
+}
+
+body main .section2 #left:hover {
+  background-color: #B21E35;
+  opacity: 90%;
+}
+
+body main .section2 #right:hover {
+  background-color: #B21E35;
+  opacity: 90%;
+}
+/*# sourceMappingURL=style.css.map */

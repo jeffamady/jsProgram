@@ -1,0 +1,119 @@
+@import 'jna';
+
+@import 'colors';
+
+
+html, body {
+    @include reset;
+}
+
+body {
+    background-color: map-get($map: $color, $key: bg);
+    @include d-f (column , center, center)
+
+    header {
+        height: 15vh;
+        // width: 100%;
+        @include  d-f (column, center, center)
+        h1 {
+            @include reset1;
+        }
+
+        h2 {
+            @include reset1;
+            font-size: 1rem;
+        }
+    }
+
+    main {
+        width: 60vw;
+        height: 75vh;
+        position: absolute;
+        top: 15vh;
+    
+        .section1 {
+            background-color: map-get($map: $color, $key: a1);
+            width: 100%;
+            height: 60%;
+            position: relative;
+
+            @include d-f (column,center, center)
+
+            #cuadrado {
+                width: 5rem;
+                height: 5rem;
+                background-color: map-get($map: $color, $key: bgf);
+                position: relative;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .section2 {
+            background-color: map-get($map: $color, $key: a2);
+            width: 100%;
+            height: 40%;
+            @include d-f ('', center, center)
+            position: relative;
+
+            button {
+                width: 3rem;
+                height: 2rem;
+                background-color: map-get($map: $color, $key: bgf);
+                margin: .1rem;
+                @include d-f ('', center, center)
+                border-radius: 50%;
+            }
+
+            #reset {
+                position: relative;
+
+                &:hover {
+                    background-color: map-get($map: $color, $key: a1);
+                    opacity: 90%;
+                }
+            }
+
+            #up {
+                position: relative;
+                bottom: 2.2rem;
+                left: 6.4rem;
+
+                &:hover {
+                    background-color: map-get($map: $color, $key: t2);
+                    opacity: 90%;
+                }
+
+            }
+
+            #down {
+                position: relative;
+                top: 2.3rem;
+                right: 6.4rem;
+
+                &:hover {
+                    background-color: map-get($map: $color, $key: t2);
+                    opacity: 90%;
+                }
+
+            }
+
+            #left {
+                &:hover {
+                    background-color: map-get($map: $color, $key: t2);
+                    opacity: 90%;
+                }
+            }
+
+            #right {
+                &:hover {
+                    background-color: map-get($map: $color, $key: t2);
+                    opacity: 90%;
+                }
+            }
+
+        }
+    }
+
+}
+
